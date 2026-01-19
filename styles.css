@@ -1,0 +1,57 @@
+body {
+  background: #ffe3f1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.header {
+  padding: 20px;
+}
+
+.header h1 {
+  color: #ff4da6;
+}
+
+/* Tarjetas */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 15px;
+  width: 220px;
+}
+
+.product-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.price {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #ff4da6;
+}
+
+/* Botones rosados */
+.btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background: #ff4da6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+                             }
